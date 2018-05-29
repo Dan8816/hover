@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#trailer").hover(function(){
+                var temp=$(this).attr("src");
+                console.log(temp);
+                $(this).attr("src",$(this).attr("data-alt-src"))
+                $(this).attr("data-alt-src", temp);
+            });
+            $("#geo").hover(function(){
+                var temp=$(this).attr("src");
+                console.log(temp);
+                $(this).attr("src",$(this).attr("data-alt-src"))
+                $(this).attr("data-alt-src", temp);
+            });
+            $("#raft").hover(function(){
+                var temp=$(this).attr("src");
+                console.log(temp);
+                $(this).attr("src",$(this).attr("data-alt-src"))
+                $(this).attr("data-alt-src", temp);
+            });
+            $("#bronco").hover(function(){
+                var temp=$(this).attr("src");
+                console.log(temp);
+                $(this).attr("src",$(this).attr("data-alt-src"))
+                $(this).attr("data-alt-src", temp);
+            });
+        });
+    </script>
+    <title>Hover</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Collection of my interests and hobbies</h1>
+        <div class="photo_bucket">
+            <img id="trailer" src="trailerlogo.png" data-alt-src="sailboat.png">
+            <img id="geo" src="eratothenes.png" data-alt-src="gis.png">
+            <img id="raft" src="alpackalogo.png" data-alt-src="currytrip.png">
+            <img id="bronco"src="dbcf.png" data-alt-src="mtelbert.png">
+        </div>
+        <!--<div class="others" id="hall"></div>
+        <div class="others" id="ace"></div>
+        <div class="others" id="tech"></div>
+        <div class="others" id="kach"></div>-->
+    </div>
+    
+</body>
+</html>

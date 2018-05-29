@@ -1,0 +1,60 @@
+.container{
+    background-color: aquamarine;
+    height: 800px;
+}
+h1{
+    background-color: orange;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-family: monospace;
+}
+img{
+    height: 350px;
+    width: 400px;
+    margin-left: 45px;
+    background-color: none;
+    border: 5px solid lightslategray;
+    border-radius: 5px;
+}
+.photo_bucket{
+    background-color: azure;
+    border: 5px solid coral;
+    padding: 10px;
+    border-radius: 10px;
+}
+.others{
+    margin-top: 50px;
+    display: inline-block;
+}
+.hover_boat{
+    background-image: url("sailboat.png")
+}
+.hover_geo{
+    background-image: url("gis.png")
+}
+.hover_raft{
+    background-image: url("currytrip.png")
+}
+.hover_colorado{
+    background-image: url("mtelbert.png")
+}
+/*#kach{
+    background-image: url("kachemak.png");
+    height: 220px;
+    width: 220px;
+}
+#ace{
+    background-image: url("usace.png");
+    height: 400px;
+    width: 450px;
+}
+#tech{
+    background-image: url("tech.png");
+    height: 350px;
+    width: 350px;
+}
+#hall{
+    background-image: url("halliburton.png");
+    height: 440px;
+    width: 600px;
+}*/
